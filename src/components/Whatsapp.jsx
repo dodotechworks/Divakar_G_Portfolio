@@ -1,5 +1,7 @@
 import React from "react";
-import styled from "styled-components";
+import * as styledComponents from "styled-components";
+
+const styled = styledComponents.default || styledComponents;
 
 const WhatsAppButton = () => {
   return (
